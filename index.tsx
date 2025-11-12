@@ -17,7 +17,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 0,
       difficulty: "Fácil",
-      title: "Nível 1: Os Marotos",
+      title: "Nível 1:",
       description: "Quatro amigos deixaram suas marcas em Hogwarts. Suas iniciais são: T.P., S.B., R.L. e P.P.",
       question: "Juntos, eles criaram um artefato mágico famoso. Como esse grupo ficou conhecido?",
       answers: ["marotos", "os marotos", "maroto"],
@@ -28,7 +28,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 1,
       difficulty: "Fácil",
-      title: "Nível 2: Ordem de Merlin",
+      title: "Nível 2:",
       description: "É um prêmio outorgado a bruxos e bruxas por grandes feitos. Possui três classes: medalha dourada em fita verde (Primeira Classe), roxa (Segunda Classe) ou branca (Terceira Classe).",
       question: "Que ordem é essa? (Responda com as iniciais ou nome completo)",
       answers: ["om", "o.m.", "o.m", "ordem de merlin"],
@@ -39,7 +39,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 2,
       difficulty: "Médio",
-      title: "Nível 3: Trio Lendário",
+      title: "Nível 3:",
       description: "Observe as siglas conectadas: H.G., R.W., H.P. - Todos estudaram juntos em Hogwarts e formaram um trio inseparável.",
       question: "Durante a luta contra as forças das trevas, como esse trio ficou conhecido?",
       answers: ["trio de ouro", "o trio de ouro", "trio dourado", "o trio dourado"],
@@ -50,7 +50,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 3,
       difficulty: "Médio",
-      title: "Nível 4: Feitiço Protetor",
+      title: "Nível 4:",
       description: "Decifre a sigla do feitiço: 'E.P.' - É um dos feitiços mais poderosos de proteção, invocado através de memórias felizes.",
       question: "Cria uma forma etérea prateada que representa o bruxo. Qual é o nome completo deste feitiço?",
       answers: ["expecto patronum", "expectro patronum"],
@@ -61,7 +61,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 4,
       difficulty: "Médio",
-      title: "Nível 5: Vilarejo Mágico",
+      title: "Nível 5:",
       description: "Siglas de lugares conectados: B.A. (local de bebidas), S.C. (local de doces), Z.Z. (loja de piadas).",
       question: "Esses três estabelecimentos ficam em qual vilarejo mágico?",
       answers: ["h", "hogsmeade"],
@@ -72,7 +72,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 5,
       difficulty: "Difícil",
-      title: "Nível 6: Decodificação Complexa",
+      title: "Nível 6:",
       description: "Decodifique a frase em siglas: 'É,u,p,o,a,b,e,b,q,r,g,f. A,O,i,u,l,m,d,e,u,f,v'",
       question: "Esta frase descreve algo importante sobre a Ordem de Merlin. Decodifique completamente.",
       answers: ["é um prêmio outorgado a bruxos e bruxas que realizaram grandes feitos a ordem inclui uma linda medalha dourada em uma fita verde"],
@@ -83,7 +83,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 6,
       difficulty: "Difícil",
-      title: "Nível 7: Comensais da Morte",
+      title: "Nível 7:",
       description: "Siglas conectadas de seguidores das trevas: B.L. Jr., L.M., B.L., P.P.",
       question: "Estes quatro foram Comensais da Morte. Complete: B.L. Jr. = Bartolomeu... (sobrenome completo)",
       answers: ["crouch", "bartolomeu crouch", "crouch jr", "bartolomeu crouch jr"],
@@ -94,7 +94,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 7,
       difficulty: "Muito Difícil",
-      title: "Nível 8: Fundadores de Hogwarts",
+      title: "Nível 8:",
       description: "F(es): G.G., H.H., R.R., S.S. - Quatro bruxos poderosos fundaram Hogwarts há mil anos.",
       question: "Decodifique TODOS os nomes completos separados por vírgula (ordem alfabética por primeiro nome)",
       answers: ["godrico gryffindor, helga hufflepuff, rowena ravenclaw, salazar slytherin"],
@@ -105,7 +105,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 8,
       difficulty: "Muito Difícil",
-      title: "Nível 9: Horcruxes",
+      title: "Nível 9:",
       description: "T.R. criou 7 fragmentos de sua alma: D.V., A.P., M.G., T.S., D.R., C.H., H.P.",
       question: "Decodifique 'D.V.' - o primeiro horcrux criado (objeto completo)",
       answers: ["diário de tom riddle", "diario de tom riddle"],
@@ -116,7 +116,7 @@ const CodeAndRiddleAcronyms = () => {
     {
       id: 9,
       difficulty: "Extremo",
-      title: "Nível 10: Profecias e Enigmas",
+      title: "Nível 10:",
       description: "Decodifique a profecia complexa: 'O,ú,c,c,d,p,p,d,D,T,s,a,q,f,d,n,m,d,J,e,a,s,d,o,a,p,d,u,o,D,T'",
       question: "Esta é uma das profecias mais importantes. Decodifique as primeiras 10 palavras.",
       answers: ["o único com capacidade de derrotar o dark lord se aproximará quando fizer"],
