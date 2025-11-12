@@ -1,312 +1,376 @@
-# 🎮 Jogo de Enigmas - Universo Harry Potter
+# Code And Riddle Acronyms
 
-Um jogo web imersivo de enigmas inspirado no universo mágico de Harry Potter, onde os jogadores desvendam mistérios relacionados a siglas e referências do mundo bruxo.
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Maintenance](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
 
-![Harry Potter Theme](https://img.shields.io/badge/Theme-Harry%20Potter-FFD700?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+Jogo educativo de decodificação de siglas baseado no universo Harry Potter, desenvolvido com React e Tailwind CSS.
 
-## 🌟 [JOGAR AGORA](https://seu-usuario.github.io/nome-do-repositorio/)
+## 📚 Documentação Completa
 
-## ✨ Características Principais
+Para informações detalhadas sobre o jogo, mecânicas, regras e estratégias, consulte a **[Wiki do Projeto](../../wiki)**.
 
-### 🎨 Design Imersivo
-- **Visual Temático**: Interface inspirada no universo Harry Potter com paleta de cores douradas e azuis místicas
-- **Efeitos Mágicos**: Partículas flutuantes animadas que criam uma atmosfera envolvente
-- **Animações Suaves**: Transições elegantes entre telas e feedbacks visuais
-- **Gradientes Místicos**: Uso de gradientes e brilhos para reforçar a temática mágica
+## 🚀 Demo
 
-### 🎯 Mecânicas de Jogo
+**[🎮 Jogar Agora](https://seu-usuario.github.io/code-and-riddle-acronyms/)**
 
-#### Sistema de Fases
-- **5 Níveis Progressivos**: Enigmas que aumentam em complexidade
-- **Enigmas Temáticos**: Todos baseados em siglas e referências do universo Harry Potter
+## 🛠️ Stack Tecnológica
 
-#### Sistema de Pontuação
-- **100 pontos** por enigma resolvido
-- **Sistema de Tentativas**: 3 chances por enigma
-- **Dicas Opcionais**: Custam 10 pontos cada
-- **Barra de Progresso**: Acompanhamento visual da evolução
+### Frontend
+- **React** 18.2.0 - Biblioteca JavaScript para construção de interfaces
+- **Tailwind CSS** 3.4.0 - Framework CSS utilitário
+- **Lucide React** 0.263.1 - Biblioteca de ícones
 
-#### Avaliação Final
-| Pontuação | Estrelas | Classificação |
-|-----------|----------|---------------|
-| 450+ | ⭐⭐⭐⭐⭐ | Bruxo Excepcional |
-| 350-449 | ⭐⭐⭐⭐ | Bruxo Habilidoso |
-| 250-349 | ⭐⭐⭐ | Bruxo Competente |
-| 150-249 | ⭐⭐ | Aprendiz Promissor |
-| <150 | ⭐ | Trouxa em Treinamento |
+### Ferramentas de Desenvolvimento
+- **Node.js** ≥ 16.x
+- **npm** ≥ 8.x
 
-### 🎪 Recursos Interativos
-
-- ✅ **Tela de Introdução**: Narrativa imersiva para contextualizar o jogador
-- ✅ **Input Responsivo**: Campo de texto com validação e tecla Enter habilitada
-- ✅ **Feedback Imediato**: Confirmação visual para respostas corretas/incorretas
-- ✅ **Estatísticas Finais**: Resumo completo da performance ao final
-- ✅ **Replay**: Opção de jogar novamente com reset completo
-
-## 📋 Enigmas Incluídos
-
-| Fase | Enigma | Dificuldade | Tema |
-|------|--------|-------------|------|
-| 1️⃣ | Os Marotos | ⭐⭐ | Apelidos dos criadores do Mapa do Maroto |
-| 2️⃣ | Ordem de Merlin | ⭐⭐⭐ | Ordens de Condecoração Mágica |
-| 3️⃣ | Trio de Ouro | ⭐⭐ | Os três protagonistas principais |
-| 4️⃣ | Expecto Patronum | ⭐⭐⭐⭐ | Feitiço do Patrono |
-| 5️⃣ | Hogsmeade | ⭐⭐⭐ | Vila bruxa mais famosa |
-
-## 🚀 Como Jogar
-
-1. **🎬 Início**: Clique em "Iniciar Aventura" na tela de boas-vindas
-2. **📖 Leia o Enigma**: Cada fase apresenta um desafio único
-3. **⌨️ Digite sua Resposta**: Use o campo de texto para inserir a sigla correspondente
-4. **💡 Use Dicas**: Se precisar, clique no botão de dica (custa 10 pontos)
-5. **🏆 Avance**: Complete todas as 5 fases para ver sua pontuação final
-6. **🔄 Jogue Novamente**: Tente melhorar sua performance!
-
-## 💻 Tecnologias Utilizadas
-
+### Estrutura
 ```
-HTML5      ████████████████████ 30%
-CSS3       ████████████████████ 35%
-JavaScript ████████████████████ 35%
+src/
+├── components/
+│   └── CodeAndRiddleAcronyms.jsx  # Componente principal do jogo
+├── data/
+│   └── levels.js                  # Configuração dos 10 níveis
+├── utils/
+│   ├── validation.js              # Lógica de validação de respostas
+│   └── scoring.js                 # Sistema de pontuação
+└── styles/
+    └── animations.css             # Animações customizadas
 ```
 
-- **HTML5**: Estrutura semântica e acessível
-- **CSS3**: Estilização avançada com animações e gradientes
-- **JavaScript Vanilla**: Lógica do jogo sem dependências externas
-- **Design Responsivo**: Compatível com todos os dispositivos
+## 📋 Pré-requisitos
 
-## 📱 Compatibilidade
+- Node.js (versão 16 ou superior)
+- npm ou yarn
+- Navegador moderno com suporte a ES6+
 
-| Plataforma | Status |
-|------------|--------|
-| 🖥️ Desktop | ✅ Totalmente Compatível |
-| 📱 Mobile | ✅ Otimizado |
-| 📱 Tablet | ✅ Responsivo |
-| 🌐 Chrome | ✅ |
-| 🌐 Firefox | ✅ |
-| 🌐 Safari | ✅ |
-| 🌐 Edge | ✅ |
+## 🔧 Instalação
 
-## 🎮 Controles
-
-- **🖱️ Mouse/Touch**: Clique nos botões
-- **⌨️ Teclado**: 
-  - `Enter` - Enviar resposta
-  - Digitação normal no campo de texto
-
-## 🔧 Instalação Local
-
-### Opção 1: Download Direto
+### Clonar o Repositório
 ```bash
-# 1. Baixe o arquivo HTML
-# 2. Abra index.html no navegador
-# 3. Jogue offline!
+git clone https://github.com/seu-usuario/code-and-riddle-acronyms.git
+cd code-and-riddle-acronyms
 ```
 
-### Opção 2: Git Clone
+### Instalar Dependências
 ```bash
-# Clone este repositório
-git clone https://github.com/seu-usuario/jogo-enigmas-harry-potter.git
-
-# Navegue até o diretório
-cd jogo-enigmas-harry-potter
-
-# Abra o arquivo no navegador
-open index.html  # macOS
-start index.html # Windows
-xdg-open index.html # Linux
+npm install
 ```
 
-## 🌐 Deploy no GitHub Pages
-
-### ⚠️ IMPORTANTE: Correção do Erro 404
-
-Se você está vendo o erro "The site configured at this address does not contain the requested file", siga estes passos:
-
-#### Passo 1: Verificar o Nome do Arquivo
+### Executar em Desenvolvimento
 ```bash
-# O arquivo DEVE se chamar exatamente:
-index.html
-# NÃO: Index.html, INDEX.html, index.htm, etc.
+npm start
 ```
+O aplicativo estará disponível em `http://localhost:3000`
 
-#### Passo 2: Estrutura do Repositório
+### Build para Produção
+```bash
+npm run build
 ```
-seu-repositorio/
-├── index.html       ← OBRIGATÓRIO (arquivo principal)
-├── README.md        ← Documentação
-└── (outros arquivos)
-```
+Os arquivos otimizados estarão na pasta `build/`
 
-#### Passo 3: Configurar GitHub Pages
+## 🏗️ Arquitetura do Código
 
-1. **Acesse seu repositório** no GitHub
-2. Vá em **Settings** (Configurações)
-3. No menu lateral, clique em **Pages**
-4. Em **Source**, selecione:
-   - Branch: `main` (ou `master`)
-   - Folder: `/ (root)`
-5. Clique em **Save**
-6. Aguarde 2-3 minutos para o deploy
-
-#### Passo 4: Verificar URL
-```
-Sua URL será:
-https://seu-usuario.github.io/nome-do-repositorio/
-
-Exemplo:
-https://joaosilva.github.io/jogo-harry-potter/
-```
-
-### 📝 Checklist de Deploy
-
-- [ ] Arquivo nomeado como `index.html` (minúsculas)
-- [ ] Arquivo na raiz do repositório (não em pasta)
-- [ ] Código HTML completo e válido
-- [ ] GitHub Pages ativado nas configurações
-- [ ] Branch correto selecionado
-- [ ] Aguardou 2-3 minutos após configurar
-- [ ] URL acessada com `/` no final
-
-### 🐛 Solução de Problemas Comuns
-
-| Problema | Solução |
-|----------|---------|
-| Erro 404 | Renomeie para `index.html` e coloque na raiz |
-| Página em branco | Verifique console do navegador (F12) |
-| Não atualiza | Limpe cache (Ctrl+Shift+R) |
-| CSS não carrega | Use caminhos relativos ou inline |
-
-## 📊 Estrutura do Código
-
-```
-index.html
+### Componente Principal
+```javascript
+CodeAndRiddleAcronyms
+├── Estado do Jogo (useState)
+│   ├── currentLevel
+│   ├── score
+│   ├── attempts
+│   └── gameState (started/playing/complete)
 │
-├── 📄 HTML (Estrutura)
-│   ├── Tela de Introdução
-│   ├── Tela de Jogo
-│   └── Tela Final
+├── Lógica de Validação
+│   ├── normalizeAnswer()
+│   └── checkAnswer()
 │
-├── 🎨 CSS (Estilização)
-│   ├── Reset e Variáveis
-│   ├── Layout Responsivo
-│   ├── Animações de Partículas
-│   ├── Temas e Cores
-│   └── Media Queries
-│
-└── ⚡ JavaScript (Lógica)
-    ├── Gerenciamento de Estados
-    ├── Sistema de Pontuação
-    ├── Controle de Fases
-    ├── Validação de Respostas
-    └── Animações e Efeitos
+└── Renderização Condicional
+    ├── IntroScreen
+    ├── GameScreen
+    └── CompletionScreen
 ```
 
-## 🎯 Roadmap - Funcionalidades Futuras
+### Sistema de Níveis
+```javascript
+levels = [
+  {
+    id: number,
+    difficulty: string,
+    title: string,
+    description: string,
+    question: string,
+    answers: string[],
+    hint: string,
+    points: number,
+    type: string
+  }
+]
+```
 
-### Versão 2.0 (Planejado)
-- [ ] 🎵 Trilha sonora temática
-- [ ] 🔊 Efeitos sonoros de feitiços
-- [ ] 🏠 Escolha da Casa de Hogwarts
-- [ ] 🌙 Modo escuro/claro
+### Validação de Respostas
+O sistema implementa normalização inteligente:
+- Remoção de acentuação (NFD)
+- Conversão para lowercase
+- Remoção de pontuação
+- Normalização de espaços
+- Suporte a múltiplas variações de resposta
 
-### Versão 3.0 (Em Consideração)
-- [ ] 👥 Modo multiplayer
-- [ ] 🏆 Sistema de ranking global
-- [ ] 🎖️ Conquistas desbloqueáveis
-- [ ] 📚 Modo história expandido
-- [ ] 🌍 Múltiplos idiomas
-- [ ] 💾 Salvamento de progresso
+## 📊 Versionamento
 
-## 🤝 Contribuindo
+Este projeto segue [Semantic Versioning](https://semver.org/).
 
-Contribuições são muito bem-vindas! 
+### Histórico de Versões
 
-### Como Contribuir:
+- **v2.0.0** (2025-11-11) - Versão React completa com 10 níveis
+  - Migração para React
+  - Sistema de dificuldade progressiva
+  - Interface moderna com Tailwind CSS
+  - Sistema de validação aprimorado
 
-1. **Fork** o projeto
-2. Crie uma **branch** para sua feature
-   ```bash
-   git checkout -b feature/MinhaNovaFeature
-   ```
-3. **Commit** suas mudanças
-   ```bash
-   git commit -m '✨ Adiciona nova feature incrível'
-   ```
-4. **Push** para a branch
-   ```bash
-   git push origin feature/MinhaNovaFeature
-   ```
-5. Abra um **Pull Request**
+- **v1.0.0** (2022-10-12) - Versão original HTML/CSS/JS
+  - Conceito inicial por Debbie Matt
+  - 5 níveis básicos
+  - Interface temática Harry Potter
 
-### Ideias para Contribuir:
-- 🎨 Melhorias visuais
-- 🧩 Novos enigmas
-- 🐛 Correção de bugs
-- 📱 Otimizações mobile
-- 🌍 Traduções
-- ♿ Melhorias de acessibilidade
+## 👥 Autores
+
+### Conceito Original
+**Debbie Matt** - Criadora do jogo "Jogo de Enigma e Codificação" (2022)
+
+### Desenvolvimento Moderno
+**Debbie Matt** - Implementação React e expansão para 10 níveis (2025)
+- GitHub: [@DebbieMatt](https://github.com/DebbieMatt)
+- LinkedIn: [Débora Mateus Camargo](https://www.linkedin.com/in/d%C3%A9bora-mateus-camargo-a21031190)
+
+## 🤝 Como Contribuir
+
+Contribuições são bem-vindas! Siga os passos abaixo:
+
+### 1. Fork do Projeto
+```bash
+# Clique no botão "Fork" no GitHub
+```
+
+### 2. Crie uma Branch
+```bash
+git checkout -b feature/nova-funcionalidade
+```
+
+### 3. Faça suas Alterações
+- Siga o padrão de código existente
+- Comente código complexo
+- Teste todas as funcionalidades
+
+### 4. Commit
+```bash
+git commit -m "feat: adiciona nova funcionalidade X"
+```
+
+**Padrões de Commit:**
+- `feat:` Nova funcionalidade
+- `fix:` Correção de bug
+- `docs:` Documentação
+- `style:` Formatação de código
+- `refactor:` Refatoração
+- `test:` Testes
+- `chore:` Tarefas de manutenção
+
+### 5. Push
+```bash
+git push origin feature/nova-funcionalidade
+```
+
+### 6. Abra um Pull Request
+- Descreva suas mudanças detalhadamente
+- Referencie issues relacionadas
+- Aguarde revisão
+
+## 🐛 Reportar Bugs
+
+Encontrou um bug? [Abra uma issue](../../issues/new) com:
+
+1. **Título claro** descrevendo o problema
+2. **Passos para reproduzir** o erro
+3. **Comportamento esperado** vs **comportamento atual**
+4. **Screenshots** (se aplicável)
+5. **Ambiente**: Navegador, versão, SO
+
+## 💡 Sugerir Melhorias
+
+Tem uma ideia? [Abra uma issue](../../issues/new) com a tag `enhancement`:
+
+- Descreva a funcionalidade proposta
+- Explique o caso de uso
+- Sugira implementação (opcional)
+
+## 📝 Propósito do Desenvolvedor
+
+### Objetivos do Projeto
+
+1. **Educacional**
+   - Ensinar conceitos de decodificação e lógica
+   - Promover conhecimento sobre o universo Harry Potter
+   - Desenvolver habilidades de resolução de problemas
+
+2. **Técnico**
+   - Demonstrar boas práticas em React
+   - Implementar validação robusta de entrada
+   - Criar interface acessível e responsiva
+   - Exemplo de gerenciamento de estado eficiente
+
+3. **Comunitário**
+   - Código aberto para aprendizado
+   - Base para expansões e modificações
+   - Ferramenta educacional gratuita
+
+### Filosofia de Desenvolvimento
+
+> "Criar uma experiência de jogo educativa que combine entretenimento com aprendizado, mantendo código limpo, documentado e acessível para contribuidores."
+
+## 📊 Status do Desenvolvimento
+
+### ✅ Funcionalidades Implementadas
+- [x] Sistema de 10 níveis progressivos
+- [x] Validação inteligente de respostas
+- [x] Sistema de pontuação (0-1.850 pts)
+- [x] Sistema de dicas (-10 pts)
+- [x] Interface responsiva
+- [x] Animações e efeitos visuais
+- [x] Sistema de tentativas (3 por nível)
+- [x] Avaliação por estrelas
+- [x] Suporte a teclado (Enter)
+
+### 🚧 Em Desenvolvimento
+- [ ] Sistema de salvamento de progresso (localStorage)
+- [ ] Modo competitivo com ranking
+- [ ] Estatísticas detalhadas de desempenho
+- [ ] Internacionalização (i18n)
+
+### 📋 Backlog
+- [ ] Modo história expandido (15+ níveis)
+- [ ] Sistema de conquistas
+- [ ] Multiplayer em tempo real
+- [ ] Efeitos sonoros e trilha sonora
+- [ ] Modo treino (prática sem pontuação)
+- [ ] API backend para ranking global
+
+## 🧪 Testes
+
+### Executar Testes
+```bash
+npm test
+```
+
+### Cobertura de Testes
+```bash
+npm run test:coverage
+```
+
+### Tipos de Teste
+- **Unitários**: Validação de funções
+- **Integração**: Fluxo de jogo completo
+- **E2E**: Experiência do usuário
+
+## 📦 Build e Deploy
+
+### Build Local
+```bash
+npm run build
+```
+
+### Deploy no GitHub Pages
+```bash
+npm run deploy
+```
+
+### Deploy no Vercel/Netlify
+```bash
+# Vercel
+vercel --prod
+
+# Netlify
+netlify deploy --prod
+```
+
+## ⚙️ Configuração
+
+### Variáveis de Ambiente
+Crie um arquivo `.env` na raiz:
+
+```env
+REACT_APP_VERSION=2.0.0
+REACT_APP_API_URL=https://api.exemplo.com
+```
+
+### Personalização
+Edite `src/data/levels.js` para adicionar ou modificar níveis:
+
+```javascript
+{
+  id: 10,
+  difficulty: "Extremo",
+  title: "Seu Novo Nível",
+  description: "Descrição...",
+  question: "Pergunta?",
+  answers: ["resposta1", "resposta2"],
+  hint: "Dica útil",
+  points: 300,
+  type: "custom"
+}
+```
 
 ## 📄 Licença
 
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
+### Resumo da Licença
 ```
-MIT License - Você pode:
-✅ Usar comercialmente
-✅ Modificar
-✅ Distribuir
+✅ Uso comercial
+✅ Modificação
+✅ Distribuição
 ✅ Uso privado
+❌ Responsabilidade
+❌ Garantia
 ```
 
-## 🎓 Créditos e Inspiração
+## 🙏 Agradecimentos
 
-- 📚 **Universo Harry Potter** - Criado por J.K. Rowling
-- 🎨 **Design** - Inspirado em elementos do filme e livros
-- 💻 **Desenvolvimento** - Projeto educacional open-source
-- 🌟 **Comunidade** - Potterheads ao redor do mundo
+- **Debbie Matt** - Conceito original e inspiração
+- **J.K. Rowling** - Universo Harry Potter
+- **Comunidade React** - Ferramentas e suporte
+- **Contribuidores** - Melhorias e correções
 
-## 📞 Suporte e Contato
+## 📞 Contato e Suporte
 
-- 🐛 **Reportar Bug**: [Abra uma Issue](https://github.com/seu-usuario/jogo-enigmas-harry-potter/issues)
-- 💡 **Sugestões**: [Discussões](https://github.com/seu-usuario/jogo-enigmas-harry-potter/discussions)
-- 📧 **Email**: seu-email@exemplo.com
-- 🐦 **Twitter**: [@seu_usuario](https://twitter.com/seu_usuario)
+- **Issues**: [GitHub Issues](../../issues)
+- **Discussões**: [GitHub Discussions](../../discussions)
+- **Email**: deboramateusdec@gmail.com
 
-## 📈 Estatísticas do Projeto
+## 🔗 Links Úteis
 
-![GitHub stars](https://img.shields.io/github/stars/seu-usuario/jogo-enigmas-harry-potter?style=social)
-![GitHub forks](https://img.shields.io/github/forks/seu-usuario/jogo-enigmas-harry-potter?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/seu-usuario/jogo-enigmas-harry-potter?style=social)
+- 📖 **[Wiki do Projeto](https://github.com/DebbieMatt/code-and-riddle-acronyms/wiki)** - Documentação completa do jogo
+- 🎮 **[Demo Live](https://debbiematt.github.io/code-and-riddle-acronyms/)**
+- 📊 **[Roadmap](https://github.com/DebbieMatt/code-and-riddle-acronyms/projects/1)** - Planejamento de funcionalidades
+- 🐛 **[Bug Tracker](https://github.com/DebbieMatt/code-and-riddle-acronyms/issues?q=is%3Aissue+is%3Aopen+label%3Abug)**
+- 💡 **[Feature Requests](https://github.com/DebbieMatt/code-and-riddle-acronyms/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)**
 
-## 🙏 Agradecimentos Especiais
+## 📈 Estatísticas
 
-- ⚡ Comunidade Harry Potter pela paixão compartilhada
-- 🎮 Todos os jogadores e testadores
-- 💻 Contribuidores do projeto
-- 🌟 Você por jogar!
+![GitHub stars](https://img.shields.io/github/stars/DebbieMatt/code-and-riddle-acronyms?style=social)
+![GitHub forks](https://img.shields.io/github/forks/DebbieMatt/code-and-riddle-acronyms?style=social)
+![GitHub issues](https://img.shields.io/github/issues/DebbieMatt/code-and-riddle-acronyms)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/DebbieMatt/code-and-riddle-acronyms)
+![GitHub last commit](https://img.shields.io/github/last-commit/DebbieMatt/code-and-riddle-acronyms)
 
 ---
 
 <div align="center">
 
-### ⚡ *"Não são as nossas capacidades que mostram quem realmente somos, são as nossas escolhas."*
-**— Alvo Dumbledore**
+**Desenvolvido com ⚡ por [Debbie Matt](https://github.com/DebbieMatt)**
 
----
-
-### 🎮 Pronto para desvendar os enigmas do mundo bruxo?
-
-**[🎯 JOGAR AGORA](https://seu-usuario.github.io/nome-do-repositorio/)** | **[📖 Documentação](https://github.com/seu-usuario/jogo-enigmas-harry-potter/wiki)** | **[🐛 Reportar Bug](https://github.com/seu-usuario/jogo-enigmas-harry-potter/issues)**
-
----
-
-Feito com ⚡ e magia ✨ por [Seu Nome](https://github.com/seu-usuario)
-
-![Hogwarts](https://img.shields.io/badge/Hogwarts-School%20of%20Witchcraft-7F1734?style=for-the-badge)
+*Para jogar e entender as mecânicas do jogo, consulte a [Wiki](https://github.com/DebbieMatt/code-and-riddle-acronyms/wiki)*
 
 </div>
