@@ -10,6 +10,9 @@
 
 Jogo educativo de decodificação de siglas baseado no universo Harry Potter, desenvolvido com HTML5, CSS3 e JavaScript puro.
 
+## 📚 Documentação Completa
+Para informações detalhadas sobre o jogo, mecânicas, regras e estratégias, consulte a [Wiki do Projeto](https://github.com/DebbieMatt/Enigmas-de-Hogwarts.github.io/wiki).
+
 ## 🎮 Sobre o Jogo
 
 **Code And Riddle Acronyms** é um desafio interativo onde você precisa decifrar 10 enigmas progressivos relacionados a siglas, códigos e características do mundo mágico de Harry Potter. Teste seus conhecimentos e prove que é digno de conhecer os segredos deixados pelos Marotos!
